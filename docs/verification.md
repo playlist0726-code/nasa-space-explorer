@@ -9,3 +9,10 @@
 - Submission PDF: all four pages rendered and reviewed.
 
 Tests use mocked data for deterministic failure scenarios; the actual NASA connection was also checked manually in the browser. NASA API availability remains an external dependency.
+
+## Published result
+
+- Public GitHub Pages URL returns HTTP 200 without authentication.
+- Final deployment workflow passed tests and completed successfully.
+- Public-site browser check: eight available current-range entries, eight images loaded; no horizontal overflow at desktop width 1280.
+- Preview screenshot: `docs/site-preview.jpg`.
